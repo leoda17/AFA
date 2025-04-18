@@ -16,43 +16,42 @@ h1, h2 {
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-.formula {
-  background-color: #eef3fa;
-  padding: 10px 15px;
-  border-left: 5px solid #2a5d9f;
-  margin: 10px 0;
-  font-family: monospace;
+h3 {
+  color: #2a5d9f;
+  margin-top: 15px;
 }
 
 ul {
   margin-left: 20px;
 }
 
-.highlight {
-  color: #2a5d9f;
-  font-weight: bold;
-}
-
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 15px 0;
+  margin-top: 20px;
 }
 
 table, th, td {
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
 }
 
-th {
-  background-color: #2a5d9f;
-  color: white;
+th, td {
   padding: 10px;
   text-align: left;
 }
 
-td {
-  padding: 10px;
+th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+strong {
+  color: #2a5d9f;
 }
